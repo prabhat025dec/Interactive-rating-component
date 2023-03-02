@@ -1,0 +1,173 @@
+html, body { height: 100%; width: 100%; margin: 0% 0% 0% 0%; }
+.main{
+    position: relative;
+    background-color:  hsl(216, 12%, 8%);
+    /* top: 0%; bottom: 0%; right: 0%; left: 0% */
+    margin: 0;
+}
+.rectangle{
+    position: absolute;
+    
+    width: 340px;
+    height: 340px;
+    background-color:  hsl(213, 19%, 18%);
+     
+     top:0;
+    bottom: 0; 
+     left: 0;
+    right: 0;
+     
+    margin: auto;
+   
+    
+    border-radius: 15px;
+    padding: 40px;
+     
+}
+ .heading{
+    line-height: normal;
+    padding-top: 50px;
+    
+ }
+ p{
+   line-height:  1.2rem;
+   padding-bottom: 20px;
+ }
+ .white{
+    color: hsl(0, 0%, 100%);
+ }
+ .light-Grey{
+    color: #959eac;
+ }
+ .round-button{
+    position: absolute;
+     display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color:  hsl(217, 12%, 63%);
+    background-color: hsl(207, 19%, 20%);
+    border-radius: 25px;
+    justify-content: center;
+   
+    
+ }
+ .round-button:hover{
+        
+        background-color: red;
+ }
+ h3{
+    text-align: center;
+ }
+ .myradio{
+   /* visibility: hidden;   */  /* visibility hidden doesn't work */
+  
+   opacity: 0;
+   position: absolute;
+   display: flex;
+    width: 50px;
+    height: 50px; 
+ }
+ /* .distance1{
+   left: 5px;
+ } */
+ .distance2{
+    left: 115px;
+ }
+ .distance3{
+   left: 195px;
+}
+.distance4{
+     left: 275px;
+}
+.distance5{
+      left: 350px;
+}
+.submit-button{
+      position: absolute;
+      border: none;
+     width: 340px;
+     height: 50px;
+     bottom: 30px;
+     border-radius: 25px;
+     background-color:   #fb7413;
+     font-size: 15px;
+    color: white;
+}
+
+.submit-button:hover{
+   background-color: white;
+   color: #fb7413;
+}
+.image-container{
+   position: absolute;
+   
+   background-color: red;
+   width:50px;
+   height: 50px;
+   display: flex;
+   border-radius:25px;
+   background-color:  hsl(207, 19%, 20%);;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   
+   
+}
+.click{
+   background-color: hsl(216, 12%, 54%);
+}
+.centre{
+   position: absolute;
+   left: 120px;
+
+}
+.selected{
+     position: absolute;
+     /* display: flex; */
+     
+     /* flex-direction: column; */
+     top: 180px;
+     left: 120px;
+     width: 180px;
+     height: 40px;
+     border-radius: 20px;
+     background-color: hsl(207, 19%, 20%);
+     
+     color: #fb7413;
+     /* justify-content: center;
+     align-content: center;
+      */
+      /* vertical-align: middle; */
+     
+}
+ .selected p{
+   top: 2px;
+   bottom: 3px;
+   text-align: center;
+ }
+.thanks{
+   position: absolute;
+   left: 150px;
+   top: 230px;
+   color: aliceblue;
+}
+.after-thanks{
+   position: absolute;
+    display: line-block;
+    top: 280px;
+     right: 45px;
+     left: 45px;
+     color: hsl(217, 12%, 63%);
+     font-size: 1rem;
+     text-align: center;
+     
+     /* line-height: 2; */
+} 
+.after-thanks p{
+   line-height: 1.4;
+}
+.hidden{
+   display: none !important;
+   
+}
